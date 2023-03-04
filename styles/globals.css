@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+#chat-history-frame {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    border: 1px solid #00000020;
+    border-radius: 10px;
+    padding: 20px 40px;
+    height: 60vh;
+    overflow: scroll;
+}
+
+#chat-input {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #f7f7f7;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Features section styles */
+.features {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.features ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.features li {
+    margin-right: 40px;
+}
+
+/* Testimonials section styles */
+.testimonials {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.testimonials blockquote {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.indexfooter {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.indexfooter p {
+    font-size: 14px;
+}
